@@ -1,0 +1,45 @@
+Host: localhost
+Port: 0001
+New connection at ID 0 ('127.0.0.1', 3068)
+New connection at ID 1 ('127.0.0.1', 3134)
+ID 0: hai!
+ID 0: hai?
+ID 0: ok
+
+New connection at ID 0 ('127.0.0.1', 3068)
+New connection at ID 1 ('127.0.0.1', 3134)
+ID 0: hai!
+ID 0: hai?
+ID 0: ok
+
+
+(base) C:\Users\umara>cd ..
+
+(base) C:\Users>cd ..
+
+(base) C:\>cd Python2
+
+(base) C:\Python2>client.py
+Host: localhost
+Port: 0001
+Host: localhost
+Port: 0001
+hai!
+hai?
+ok
+
+
+C:\Users\umara
+
+(base) C:\Users\umara>cd ..
+
+(base) C:\Users>cd ..
+
+(base) C:\>cd Python2
+
+(base) C:\Python2>server.py
+Host: localhost
+Port: 0001
+hai!
+hai?
+ok
